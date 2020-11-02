@@ -1,0 +1,24 @@
+{
+  "name": "favoritesongs",
+  "version": "1.0.0",
+  "description": "list of favorite songs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "favoritesong"
+  },
+  "author": "Niels van der Vlist",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
